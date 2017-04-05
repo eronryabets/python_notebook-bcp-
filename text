@@ -3,3 +3,40 @@ print (3)
 } import
 2 lines
 constants
+================
+#current = 14:00
+#time_hours = 51
+
+current = float(input("Введите current: "))
+time_hours = float(input("Введите часы"))
+result = (current + time_hours) % 24
+print(result)
+=======================
+hours = float(input("Введите рабочие часы: "))
+rate = float(input("Введите ставку"))
+result = str(hours * rate)
+print("Ответ " + result)
+===========================
+
+print('first text')
+#идет обьявление функции
+def print_hello():
+	print("Hello World")
+#телло функции закончено
+print('second text')
+#print_hello()
+==============================
+
+
+def print_hello():
+	print ("hello ", end=" ")
+	print("hello ")
+
+def get_name():
+	name = input("Enter your name: ")
+	print_hello(),
+	print(name)
+
+get_name()
+
+==========================
