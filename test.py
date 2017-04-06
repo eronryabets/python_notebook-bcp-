@@ -1,12 +1,8 @@
 
 
-def print_hello():
-	print ("hello ", end=" ")
-	print("hello ")
+a = 5
+b = 5.0
 
-def get_name():
-	name = input("Enter your name: ")
-	print_hello(),
-	print(name)
-
-get_name()
+print(5, 5.0)
+print("id:", "\na:", id(a), "\nb:", id(b))
+print("hex", "\na:", hex(a), "\nb:", float.hex(b))
