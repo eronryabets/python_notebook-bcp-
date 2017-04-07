@@ -6,6 +6,13 @@ balian = type(32)
 print(balian)
 """
 """
+#сейчас 14 часа ставим таймер на 51, во сколько времени он сработает
+time = 14
+hours = 51
+time_timer = (hours + time) % 24
+print(time_timer ) #17
+"""
+"""
 print(id(3))
 alian = 3
 print(id(alian))
@@ -75,7 +82,39 @@ minute = 59
 print(minute/60.0)
 #Пример неявного преобразования типа
 """
+"""
+#Математические функции
+import math
+print(3.14 / 2)
+pi = 3.14
+x = 10.0
+print(1/x)
+print(math.sin(pi/2)) #0.9999996829318346
+print(math.log(1/x)) #-2.3025850929940455
 
+print(math.log(1/math.sin(pi/2))) #3.170682155987296e-07
+"""
+"""
+#Математические функции
+import math
 
+decibel = math.log10 (17.0) # log base 10; log base e
+angle = 1.5
+height = math.sin(angle) # radian
+
+"""
+"""
+#Композиция
+#что такое функция def?
+# def - задает функцию (функции - Многократно используемые части кода )
+
+alian = 10
+balian = 'str_name'
+def def_name():
+    calian = (str(alian) + balian)
+    print(calian)
+print(def_name())
+print("Finish function")
+"""
 
 

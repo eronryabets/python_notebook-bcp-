@@ -1,4 +1,16 @@
 
+https://habrahabr.ru/post/193890/
+https://habrahabr.ru/post/245491/
+http://pythonz.net/references/named/id/
+https://pythonworld.ru/osnovy/vstroennye-funkcii.html
+
+https://docs.python.org/3/library/struct.html
+https://docs.python.org/3/library/functions.html#id
+https://habrahabr.ru/post/30633/
+https://pythonworld.ru/tipy-dannyx-v-python/vse-o-funkciyax-i-ix-argumentax.html
+
+================================
+
 print (3)
 } import
 2 lines
@@ -48,15 +60,6 @@ print(5, 5.0)
 print("id:", "\na:", id(a), "\nb:", id(b))
 print("hex", "\na:", hex(a), "\nb:", float.hex(b))
 
-
-================================
-https://habrahabr.ru/post/193890/
-https://habrahabr.ru/post/245491/
-http://pythonz.net/references/named/id/
-https://pythonworld.ru/osnovy/vstroennye-funkcii.html
-
-https://docs.python.org/3/library/struct.html
-https://docs.python.org/3/library/functions.html#id
 
 ================================
 
