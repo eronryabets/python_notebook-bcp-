@@ -116,5 +116,18 @@ def def_name():
 print(def_name())
 print("Finish function")
 """
+"""
+alian = 0
 
+def increment():
+    global alian
+    #global - Возвращает словарь, представляющий текущую глобальную таблицу символов. Это всегда словарь текущего модуля
+    # (внутри функции или метода, это модуль, где он определен, а не модуль, из которого она называется).
+    alian = alian + 1
 
+print(alian) #0
+increment()
+print(alian) #1
+increment()
+print(alian) #2
+"""
